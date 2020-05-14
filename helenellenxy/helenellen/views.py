@@ -6,4 +6,4 @@ from django.http import HttpResponse
 def home(request):
 	context = {}
 	# for some reason cannot be templates/helenellen/home.html
-	return render(request, 'helenellen/home.html', context)
+	return render(request, 'helenellen/index.html', context)
