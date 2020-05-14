@@ -1,0 +1,8 @@
+Create a project
+
+django-admin startproject (sitename)
+
+
+Create an app (a project may have multiple apps)
+
+python manage.py startapp (appname)
